@@ -6,4 +6,4 @@ the model "vgg16_faster_rcnn_train_1.3x.caffemodel" is trained with input image 
 The reported numbers are from tests with the same scale as training time.
 Please note the 1x model runs ~2x faster than the 1.3x model.
 
-The models are available in the [Google Drive](https://github.com/myding-njust/citypersons/tree/master/annotations/?at=default).
+The models are available in the Google Drive (https://github.com/myding-njust/citypersons/tree/master/annotations/?at=default).
