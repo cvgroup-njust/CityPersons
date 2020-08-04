@@ -37,7 +37,7 @@ Please refer to the [instructions](https://github.com/myding-njust/citypersons/t
 
 
 ### Annotation Example ###
-![图片1.png](https://bitbucket.org/repo/XXegAKG/images/982984467-%E5%9B%BE%E7%89%871.png)
+![图片1.png](https://github.com/myding-njust/citypersons/blob/master/imgs/%E5%9B%BE%E7%89%871.png)
 
 ### Citation ###
 
