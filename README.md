@@ -27,12 +27,12 @@ Please note * marks unpublished methods, without officially published papers.
 
 [comment]: <![leaderboard.png](https://bitbucket.org/repo/XXegAKG/images/1374766803-leaderboard.png)> 
 
-Please refer to the [instructions](https://bitbucket.org/shanshanzhang/citypersons/src/f44d4e585d51d0c3fd7992c8fb913515b26d4b5a/evaluation/?at=default) on submitting results for evaluation.
+Please refer to the [instructions](https://github.com/myding-njust/citypersons/tree/master/evaluation/?at=default) on submitting results for evaluation.
 
 ### What Do We Have? ###
 
-* [Train/val annotations](https://bitbucket.org/shanshanzhang/citypersons/src/f44d4e585d51d0c3fd7992c8fb913515b26d4b5a/annotations/?at=default)
-* [Python evaluation code](https://bitbucket.org/shanshanzhang/citypersons/src/f44d4e585d51d0c3fd7992c8fb913515b26d4b5a/evaluation/eval_script/?at=default)
+* [Train/val annotations](https://github.com/myding-njust/citypersons/tree/master/annotations/?at=default)
+* [Python evaluation code](https://github.com/myding-njust/citypersons/tree/master/evaluation/eval_script/?at=default)
 * Competition leaderboard for the test set
 
 
