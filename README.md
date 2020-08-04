@@ -27,17 +27,17 @@ Please note * marks unpublished methods, without officially published papers.
 
 [comment]: <![leaderboard.png](https://bitbucket.org/repo/XXegAKG/images/1374766803-leaderboard.png)> 
 
-Please refer to the [instructions](https://github.com/cvgroup-njust/citypersons/tree/master/evaluation/?at=default) on submitting results for evaluation.
+Please refer to the [instructions](https://github.com/cvgroup-njust/CityPersons/tree/master/evaluation/?at=default) on submitting results for evaluation.
 
 ### What Do We Have? ###
 
-* [Train/val annotations](https://github.com/cvgroup-njust/citypersons/tree/master/annotations/?at=default)
-* [Python evaluation code](https://github.com/cvgroup-njust/citypersons/tree/master/evaluation/eval_script/?at=default)
+* [Train/val annotations](https://github.com/cvgroup-njust/CityPersons/tree/master/annotations/?at=default)
+* [Python evaluation code](https://github.com/cvgroup-njust/CityPersons/tree/master/evaluation/eval_script/?at=default)
 * Competition leaderboard for the test set
 
 
 ### Annotation Example ###
-![图片1.png](https://github.com/cvgroup-njust/citypersons/blob/master/imgs/%E5%9B%BE%E7%89%871.png)
+![图片1.png](https://github.com/cvgroup-njust/CityPersons/blob/master/imgs/%E5%9B%BE%E7%89%871.png)
 
 ### Citation ###
 
