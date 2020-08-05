@@ -11,18 +11,18 @@ Welcome to join the competition by submitting your results on the test set!
 |:----------------------:|:----------------------:|:---------------:|:---------------------:|:-------------------------:|:--------:|
 | [APD-pretrain](https://arxiv.org/abs/1910.09188) |  √ |      7.31%     |         10.81%        |           28.07%          |  32.71%  |
 | [Pedestron](https://arxiv.org/abs/2003.08799) |  √ |      7.69%     |         9.16%        |           27.08%          |  28.33%  |
-| [APD](https://arxiv.org/abs/1910.09188) |  X  |      8.27%     |         11.03%        |           35.45%          |  35.65%  |
-| YT-PedDet |  X  |      8.41%     |         10.60%        |           37.88%          |  37.22%  |
-| STNet |  X  |      8.92%     |         11.13%        |           34.31%          |  29.54%  |
-| [MGAN](https://arxiv.org/abs/1910.06160) |  X  |      9.29%     |         11.38%        |           40.97%          |  38.86%  |
-| DVRNet |  X  |      10.99%     |         15.68%        |           43.77%          |  41.48%  |
-| [HBA-RCNN](https://arxiv.org/abs/1911.11985) |  X  |      11.26%     |         15.68%        |           39.54%          |  38.77%  |
-| [OR-CNN](https://arxiv.org/abs/1807.08407)     |  X  |      11.32%     |         14.19%        |           51.43%          |  40.19%  |
-| [AdaptiveNMS](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)     |  X  |      11.40%     |         13.64%        |           46.99%          |  38.89%  |
-| [Repultion Loss](http://arxiv.org/abs/1711.07752)     |  X  |      11.48%     |         15.67%        |           52.59%          |  39.17%  |
-| [Cascade MS-CNN](https://arxiv.org/abs/1906.09756)     |  X  |      11.62%     |         13.64%        |           47.14%          |  37.63%  |
-| [Adapted FasterRCNN](http://202.119.95.70/cache/12/03/openaccess.thecvf.com/f36bf52f1783160552c75ae3cd300e84/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  X  |      12.97%     |         37.24%        |           50.47%          |  43.86%  |
-| [MS-CNN](https://arxiv.org/abs/1607.07155)     |  X  |      13.32%     |         15.86%        |           51.88%          |  39.94%  |
+| [APD](https://arxiv.org/abs/1910.09188) |  ×  |      8.27%     |         11.03%        |           35.45%          |  35.65%  |
+| YT-PedDet |  ×  |      8.41%     |         10.60%        |           37.88%          |  37.22%  |
+| STNet |  ×  |      8.92%     |         11.13%        |           34.31%          |  29.54%  |
+| [MGAN](https://arxiv.org/abs/1910.06160) |  ×  |      9.29%     |         11.38%        |           40.97%          |  38.86%  |
+| DVRNet |  ×  |      10.99%     |         15.68%        |           43.77%          |  41.48%  |
+| [HBA-RCNN](https://arxiv.org/abs/1911.11985) |  ×  |      11.26%     |         15.68%        |           39.54%          |  38.77%  |
+| [OR-CNN](https://arxiv.org/abs/1807.08407)     |  ×  |      11.32%     |         14.19%        |           51.43%          |  40.19%  |
+| [AdaptiveNMS](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)     |  ×  |      11.40%     |         13.64%        |           46.99%          |  38.89%  |
+| [Repultion Loss](http://arxiv.org/abs/1711.07752)     |  ×  |      11.48%     |         15.67%        |           52.59%          |  39.17%  |
+| [Cascade MS-CNN](https://arxiv.org/abs/1906.09756)     |  ×  |      11.62%     |         13.64%        |           47.14%          |  37.63%  |
+| [Adapted FasterRCNN](http://202.119.95.70/cache/12/03/openaccess.thecvf.com/f36bf52f1783160552c75ae3cd300e84/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  ×  |      12.97%     |         37.24%        |           50.47%          |  43.86%  |
+| [MS-CNN](https://arxiv.org/abs/1607.07155)     |  ×  |      13.32%     |         15.86%        |           51.88%          |  39.94%  |
 
 [comment]: <![leaderboard.png](https://bitbucket.org/repo/XXegAKG/images/1374766803-leaderboard.png)> 
 
