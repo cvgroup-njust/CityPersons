@@ -9,7 +9,7 @@ Welcome to join the competition by submitting your results on the test set!
 
 |         Method         | External training data | MR (Reasonable) | MR (Reasonable_small) | MR (Reasonable_occ=heavy) | MR (All) |
 |:----------------------:|:----------------------:|:---------------:|:---------------------:|:-------------------------:|:--------:|
-| [APD-pretrain](https://arxiv.org/abs/1910.09188) |  U+2713  |      7.31%     |         10.81%        |           28.07%          |  32.71%  |
+| [APD-pretrain](https://arxiv.org/abs/1910.09188) |  \U+2713  |      7.31%     |         10.81%        |           28.07%          |  32.71%  |
 | [Pedestron](https://arxiv.org/abs/2003.08799) |  &radic  |      7.69%     |         9.16%        |           27.08%          |  28.33%  |
 | [APD](https://arxiv.org/abs/1910.09188) |  &radic  |      8.27%     |         11.03%        |           35.45%          |  35.65%  |
 | YT-PedDet |  &radic  |      8.41%     |         10.60%        |           37.88%          |  37.22%  |
