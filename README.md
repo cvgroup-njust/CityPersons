@@ -9,7 +9,7 @@ Welcome to join the competition by submitting your results on the test set!
 
 |         Method         | External training data | MR (Reasonable) | MR (Reasonable_small) | MR (Reasonable_occ=heavy) | MR (All) |
 |:----------------------:|:----------------------:|:---------------:|:---------------------:|:-------------------------:|:--------:|
-| [APD-pretrain](https://arxiv.org/abs/1910.09188) |  &radic  |      7.31%     |         10.81%        |           28.07%          |  32.71%  |
+| [APD-pretrain](https://arxiv.org/abs/1910.09188) |  U+2713  |      7.31%     |         10.81%        |           28.07%          |  32.71%  |
 | [Pedestron](https://arxiv.org/abs/2003.08799) |  &radic  |      7.69%     |         9.16%        |           27.08%          |  28.33%  |
 | [APD](https://arxiv.org/abs/1910.09188) |  &radic  |      8.27%     |         11.03%        |           35.45%          |  35.65%  |
 | YT-PedDet |  &radic  |      8.41%     |         10.60%        |           37.88%          |  37.22%  |
@@ -21,7 +21,7 @@ Welcome to join the competition by submitting your results on the test set!
 | [AdaptiveNMS](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)     |  &radic  |      11.40%     |         13.64%        |           46.99%          |  38.89%  |
 | [Repultion Loss](http://arxiv.org/abs/1711.07752)     |  &radic  |      11.48%     |         15.67%        |           52.59%          |  39.17%  |
 | [Cascade MS-CNN](https://arxiv.org/abs/1906.09756)     |  &radic  |      11.62%     |         13.64%        |           47.14%          |  37.63%  |
-|  [Adapted FasterRCNN](http://202.119.95.70/cache/12/03/openaccess.thecvf.com/f36bf52f1783160552c75ae3cd300e84/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  &radic  |      12.97%     |         37.24%        |           50.47%          |  43.86%  |
+| [Adapted FasterRCNN](http://202.119.95.70/cache/12/03/openaccess.thecvf.com/f36bf52f1783160552c75ae3cd300e84/Zhang_CityPersons_A_Diverse_CVPR_2017_paper.pdf)  |  &radic  |      12.97%     |         37.24%        |           50.47%          |  43.86%  |
 | [MS-CNN](https://arxiv.org/abs/1607.07155)     |  &radic  |      13.32%     |         15.86%        |           51.88%          |  39.94%  |
 
 [comment]: <![leaderboard.png](https://bitbucket.org/repo/XXegAKG/images/1374766803-leaderboard.png)> 
