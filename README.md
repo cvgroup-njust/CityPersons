@@ -5,6 +5,8 @@ Please download the images from the Cityscapes website!
 
 Welcome to join the competition by submitting your results on the test set!
 
+*You are highly encouraged to use your institutional email account for submission!*
+
 ### Benchmark ###
 
 |         Method         | External   training data | MR (Reasonable) | MR (Reasonable_small) | MR (Reasonable_occ=heavy) | MR (All) |
