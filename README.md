@@ -17,7 +17,7 @@ Welcome to join the competition by submitting your results on the test set!
 | YT-PedDet |  ×  |      8.41%     |         10.60%        |           37.88%          |  37.22%  |
 | STNet |  ×  |      8.92%     |         11.13%        |           34.31%          |  29.54%  |
 | [MGAN](https://arxiv.org/abs/1910.06160) |  ×  |      9.29%     |         11.38%        |           40.97%          |  38.86%  |
-| DVRNet |  ×  |      10.99%     |         15.68%        |           43.77%          |  41.48%  |
+| DVRNet |  ×  |      11.17%     |         15.62%        |           42.52%          |  40.99%  |
 | [HBA-RCNN](https://arxiv.org/abs/1911.11985) |  ×  |      11.26%     |         15.68%        |           39.54%          |  38.77%  |
 | [OR-CNN](https://arxiv.org/abs/1807.08407)     |  ×  |      11.32%     |         14.19%        |           51.43%          |  40.19%  |
 | [AdaptiveNMS](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Adaptive_NMS_Refining_Pedestrian_Detection_in_a_Crowd_CVPR_2019_paper.pdf)     |  ×  |      11.40%     |         13.64%        |           46.99%          |  38.89%  |
