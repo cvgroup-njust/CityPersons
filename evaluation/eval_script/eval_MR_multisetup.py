@@ -88,10 +88,14 @@ class COCOeval:
         '''
         p = self.params
         if p.useCats:
-            gts=self.cocoGt.loadAnns(self.cocoGt.getAnnIds(imgIds=p.imgIds, catIds=p.catIds))
+            gts=copy.deepcopy(
+                self.cocoGt.loadAnns(
+                    self.cocoGt.getAnnIds(imgIds=p.imgIds, catIds=p.catIds)))
             dts=self.cocoDt.loadAnns(self.cocoDt.getAnnIds(imgIds=p.imgIds, catIds=p.catIds))
         else:
-            gts=self.cocoGt.loadAnns(self.cocoGt.getAnnIds(imgIds=p.imgIds))
+            gts=copy.deepcopy(
+                self.cocoGt.loadAnns(
+                    self.cocoGt.getAnnIds(imgIds=p.imgIds)))
             dts=self.cocoDt.loadAnns(self.cocoDt.getAnnIds(imgIds=p.imgIds))
 
 
@@ -357,13 +361,15 @@ class COCOeval:
                     continue
                 tps = np.logical_and(dtm, np.logical_not(dtIg))
                 fps = np.logical_and(np.logical_not(dtm), np.logical_not(dtIg))
-                inds = np.where(dtIg==0)[1]
-                tps = tps[:,inds]
-                fps = fps[:,inds]
+                
+                for t, (tp, fp) in enumerate(zip(tps, fps)):
+                    inds = np.where(dtIg[t]==0)[0]
+                    tp = tp[inds]
+                    fp = fp[inds]
 
-                tp_sum = np.cumsum(tps, axis=1).astype(dtype=np.float)
-                fp_sum = np.cumsum(fps, axis=1).astype(dtype=np.float)
-                for t, (tp, fp) in enumerate(zip(tp_sum, fp_sum)):
+                    tp = np.cumsum(tp).astype(dtype=np.float)
+                    fp = np.cumsum(fp).astype(dtype=np.float)
+                    
                     tp = np.array(tp)
                     fppi = np.array(fp)/I0
                     nd = len(tp)
@@ -417,7 +423,7 @@ class COCOeval:
             s = self.eval['TP']
             # IoU
             if iouThr is not None:
-                t = np.where(iouThr == p.iouThrs)[0]
+                t = np.where(iouThr == np.array(p.iouThrs))[0]
                 s = s[t]
             mrs = 1-s[:,:,:,mind]
 
@@ -448,7 +454,7 @@ class Params:
         self.catIds = []
         # np.arange causes trouble.  the data point on arange is slightly larger than the true value
 
-        self.recThrs = np.linspace(.0, 1.00, np.round((1.00 - .0) / .01) + 1, endpoint=True)
+        self.recThrs = np.linspace(.0, 1.00, int(np.round((1.00 - .0) / .01) + 1), endpoint=True)
         self.fppiThrs = np.array([0.0100,    0.0178,    0.0316,    0.0562,    0.1000,    0.1778,    0.3162,    0.5623,    1.0000])
         self.maxDets = [1000]
         self.expFilter = 1.25
