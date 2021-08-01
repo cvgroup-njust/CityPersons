@@ -1,5 +1,6 @@
 Submitting results
 Please write the detection results for all test images in a single .json file (see dt_mat2json.m), and then send to shanshan.zhang@njust.edu.cn.
+Important: please refer to test_imgids.txt for the order of test images while writing detection results! 
 You'll receive the evaulation results via e-mail, and then you decide whether to publish it or not.
 If you would like to publish your results on the dashboard, please also specify a name of your method.
 
