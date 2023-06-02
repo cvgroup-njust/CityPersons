@@ -12,6 +12,7 @@ Welcome to join the competition by submitting your results on the test set!
 |         Method         | External   training data | MR (Reasonable) | MR (Reasonable_small) | MR (Reasonable_occ=heavy) | MR (All) |
 |:----------------------:|:----------------------:|:---------------:|:---------------------:|:-------------------------:|:--------:|
 | DIW Loss |  √ |      6.23%     |         7.36%        |           28.37%          |  26.45%  |
+| [LSFM](https://openaccess.thecvf.com/content/CVPR2023/papers/Khan_Localized_Semantic_Feature_Mixers_for_Efficient_Pedestrian_Detection_in_Autonomous_CVPR_2023_paper.pdf) |  √ |      6.38%     |         7.90%        |           24.73%          |  31.36%  |
 | [APD-pretrain](https://arxiv.org/abs/1910.09188) |  √ |      7.31%     |         10.81%        |           28.07%          |  32.71%  |
 | [Pedestron](https://arxiv.org/abs/2003.08799) |  √ |      7.69%     |         9.16%        |           27.08%          |  28.33%  |
 | [APD](https://arxiv.org/abs/1910.09188) |  ×  |      8.27%     |         11.03%        |           35.45%          |  35.65%  |
